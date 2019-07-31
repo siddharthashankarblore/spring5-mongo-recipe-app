@@ -1,6 +1,5 @@
-package guru.springframework.repositories;
+package springframework.repositories;
 
-import guru.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -8,6 +7,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import springframework.domain.UnitOfMeasure;
 
 import java.util.Optional;
 

@@ -1,6 +1,6 @@
-package guru.springframework.repositories;
+package springframework.repositories;
 
-import guru.springframework.domain.Category;
+import springframework.domain.Category;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

@@ -1,6 +1,6 @@
-package guru.springframework.commands;
+package springframework.commands;
 
-import guru.springframework.domain.Difficulty;
+import springframework.domain.Difficulty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

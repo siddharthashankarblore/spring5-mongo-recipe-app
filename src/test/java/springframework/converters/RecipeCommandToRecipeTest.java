@@ -1,13 +1,14 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Difficulty;
-import guru.springframework.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
+
+import springframework.commands.CategoryCommand;
+import springframework.commands.IngredientCommand;
+import springframework.commands.NotesCommand;
+import springframework.commands.RecipeCommand;
+import springframework.domain.Difficulty;
+import springframework.domain.Recipe;
 
 import static org.junit.Assert.*;
 

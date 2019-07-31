@@ -1,6 +1,6 @@
-package guru.springframework.services;
+package springframework.services;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
+import springframework.commands.UnitOfMeasureCommand;
 
 import java.util.Set;
 

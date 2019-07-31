@@ -1,18 +1,19 @@
-package guru.springframework.services;
+package springframework.services;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.converters.IngredientCommandToIngredient;
-import guru.springframework.converters.IngredientToIngredientCommand;
-import guru.springframework.converters.UnitOfMeasureCommandToUnitOfMeasure;
-import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
-import guru.springframework.repositories.UnitOfMeasureRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+
+import springframework.commands.IngredientCommand;
+import springframework.converters.IngredientCommandToIngredient;
+import springframework.converters.IngredientToIngredientCommand;
+import springframework.converters.UnitOfMeasureCommandToUnitOfMeasure;
+import springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
+import springframework.domain.Ingredient;
+import springframework.domain.Recipe;
+import springframework.repositories.RecipeRepository;
+import springframework.repositories.UnitOfMeasureRepository;
 
 import java.util.Optional;
 

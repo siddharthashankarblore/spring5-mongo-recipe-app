@@ -1,4 +1,4 @@
-package guru.springframework.services;
+package springframework.services;
 
 import org.springframework.web.multipart.MultipartFile;
 

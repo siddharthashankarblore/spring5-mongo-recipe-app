@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.domain.Category;
+import springframework.commands.CategoryCommand;
+import springframework.domain.Category;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;

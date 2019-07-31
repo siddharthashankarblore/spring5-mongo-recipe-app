@@ -1,6 +1,6 @@
-package guru.springframework.services;
+package springframework.services;
 
-import guru.springframework.commands.IngredientCommand;
+import springframework.commands.IngredientCommand;
 
 /**
  * Created by jt on 6/27/17.

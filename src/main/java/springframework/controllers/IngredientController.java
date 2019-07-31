@@ -1,11 +1,11 @@
-package guru.springframework.controllers;
+package springframework.controllers;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.services.IngredientService;
-import guru.springframework.services.RecipeService;
-import guru.springframework.services.UnitOfMeasureService;
+import springframework.commands.IngredientCommand;
+import springframework.commands.RecipeCommand;
+import springframework.commands.UnitOfMeasureCommand;
+import springframework.services.IngredientService;
+import springframework.services.RecipeService;
+import springframework.services.UnitOfMeasureService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

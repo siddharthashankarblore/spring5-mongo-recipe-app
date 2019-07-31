@@ -1,9 +1,5 @@
-package guru.springframework.controllers;
+package springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -11,6 +7,11 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import springframework.commands.RecipeCommand;
+import springframework.domain.Recipe;
+import springframework.exceptions.NotFoundException;
+import springframework.services.RecipeService;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;

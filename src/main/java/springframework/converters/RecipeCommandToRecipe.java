@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import springframework.commands.RecipeCommand;
+import springframework.domain.Recipe;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;

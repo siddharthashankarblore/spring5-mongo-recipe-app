@@ -1,9 +1,10 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
 import org.junit.Before;
 import org.junit.Test;
+
+import springframework.commands.NotesCommand;
+import springframework.domain.Notes;
 
 import static org.junit.Assert.*;
 

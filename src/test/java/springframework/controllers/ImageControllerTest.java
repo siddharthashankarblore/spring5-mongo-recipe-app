@@ -1,8 +1,5 @@
-package guru.springframework.controllers;
+package springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.services.ImageService;
-import guru.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -11,6 +8,10 @@ import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import springframework.commands.RecipeCommand;
+import springframework.services.ImageService;
+import springframework.services.RecipeService;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;

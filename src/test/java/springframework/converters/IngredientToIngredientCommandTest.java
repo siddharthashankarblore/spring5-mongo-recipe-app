@@ -1,11 +1,12 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
+
+import springframework.commands.IngredientCommand;
+import springframework.domain.Ingredient;
+import springframework.domain.Recipe;
+import springframework.domain.UnitOfMeasure;
 
 import java.math.BigDecimal;
 

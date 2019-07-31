@@ -1,9 +1,10 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.domain.Category;
 import org.junit.Before;
 import org.junit.Test;
+
+import springframework.commands.CategoryCommand;
+import springframework.domain.Category;
 
 import static org.junit.Assert.*;
 

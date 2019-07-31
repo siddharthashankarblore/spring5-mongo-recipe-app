@@ -1,8 +1,8 @@
-package guru.springframework.controllers;
+package springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.services.RecipeService;
+import springframework.commands.RecipeCommand;
+import springframework.exceptions.NotFoundException;
+import springframework.services.RecipeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;

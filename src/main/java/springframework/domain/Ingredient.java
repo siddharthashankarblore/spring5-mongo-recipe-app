@@ -1,4 +1,4 @@
-package guru.springframework.domain;
+package springframework.domain;
 
 import lombok.Getter;
 import lombok.Setter;

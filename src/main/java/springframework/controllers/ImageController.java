@@ -1,8 +1,8 @@
-package guru.springframework.controllers;
+package springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.services.ImageService;
-import guru.springframework.services.RecipeService;
+import springframework.commands.RecipeCommand;
+import springframework.services.ImageService;
+import springframework.services.RecipeService;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

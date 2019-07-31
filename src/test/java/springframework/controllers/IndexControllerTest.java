@@ -1,7 +1,5 @@
-package guru.springframework.controllers;
+package springframework.controllers;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -10,6 +8,9 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.ui.Model;
+
+import springframework.domain.Recipe;
+import springframework.services.RecipeService;
 
 import java.util.HashSet;
 import java.util.Set;

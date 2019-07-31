@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
+import springframework.commands.NotesCommand;
+import springframework.domain.Notes;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;

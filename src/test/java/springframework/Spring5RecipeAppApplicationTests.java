@@ -1,4 +1,4 @@
-package guru.springframework;
+package springframework;
 
 import org.junit.Ignore;
 import org.junit.Test;

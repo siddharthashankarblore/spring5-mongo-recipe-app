@@ -1,12 +1,12 @@
-package guru.springframework.services;
+package springframework.services;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.converters.IngredientCommandToIngredient;
-import guru.springframework.converters.IngredientToIngredientCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
-import guru.springframework.repositories.UnitOfMeasureRepository;
+import springframework.commands.IngredientCommand;
+import springframework.converters.IngredientCommandToIngredient;
+import springframework.converters.IngredientToIngredientCommand;
+import springframework.domain.Ingredient;
+import springframework.domain.Recipe;
+import springframework.repositories.RecipeRepository;
+import springframework.repositories.UnitOfMeasureRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

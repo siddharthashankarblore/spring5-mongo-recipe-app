@@ -1,9 +1,10 @@
 package guru.springframework.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Category;
-import guru.springframework.domain.Recipe;
 import lombok.Synchronized;
+import springframework.commands.RecipeCommand;
+import springframework.domain.Category;
+import springframework.domain.Recipe;
+
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;

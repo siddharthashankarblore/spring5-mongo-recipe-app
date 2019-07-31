@@ -1,7 +1,8 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.*;
+import springframework.commands.RecipeCommand;
+import springframework.domain.*;
+
 import org.junit.Before;
 import org.junit.Test;
 

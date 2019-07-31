@@ -1,7 +1,5 @@
-package guru.springframework.services;
+package springframework.services;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -9,6 +7,9 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.web.multipart.MultipartFile;
+
+import springframework.domain.Recipe;
+import springframework.repositories.RecipeRepository;
 
 import java.util.Optional;
 

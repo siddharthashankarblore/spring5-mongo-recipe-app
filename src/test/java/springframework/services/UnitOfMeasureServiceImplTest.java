@@ -1,13 +1,14 @@
-package guru.springframework.services;
+package springframework.services;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
-import guru.springframework.repositories.UnitOfMeasureRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+
+import springframework.commands.UnitOfMeasureCommand;
+import springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
+import springframework.domain.UnitOfMeasure;
+import springframework.repositories.UnitOfMeasureRepository;
 
 import java.util.HashSet;
 import java.util.Set;

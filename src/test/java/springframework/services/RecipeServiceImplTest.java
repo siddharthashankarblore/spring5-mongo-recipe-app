@@ -1,16 +1,17 @@
-package guru.springframework.services;
+package springframework.services;
 
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.converters.RecipeCommandToRecipe;
-import guru.springframework.converters.RecipeToRecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.repositories.RecipeRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+
+import springframework.commands.RecipeCommand;
+import springframework.converters.RecipeCommandToRecipe;
+import springframework.converters.RecipeToRecipeCommand;
+import springframework.domain.Recipe;
+import springframework.exceptions.NotFoundException;
+import springframework.repositories.RecipeRepository;
 
 import java.util.HashSet;
 import java.util.Optional;

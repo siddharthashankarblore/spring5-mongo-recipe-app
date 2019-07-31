@@ -1,9 +1,10 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
+
+import springframework.commands.UnitOfMeasureCommand;
+import springframework.domain.UnitOfMeasure;
 
 import static org.junit.Assert.*;
 
